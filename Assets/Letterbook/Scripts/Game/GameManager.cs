@@ -198,7 +198,7 @@ public class GameManager : MonoBehaviour
 
 		if (Input.GetMouseButtonDown (0)) {
 			if (!shape.completed)
-				brightEffect.GetComponent<ParticleEmitter> ().emit = true;
+				//brightEffect.GetComponent<ParticleEmitter> ().emit = true;
 
 			hit2d = Physics2D.Raycast (GetCurrentPlatformClickPosition (Camera.main), Vector2.zero);
 			if (hit2d.collider != null) {
@@ -214,7 +214,7 @@ public class GameManager : MonoBehaviour
 			}
 
 		} else if (Input.GetMouseButtonUp (0)) {
-			brightEffect.GetComponent<ParticleEmitter> ().emit = false;
+			//brightEffect.GetComponent<ParticleEmitter> ().emit = false;
 			DisableHand ();
 			shape.Invoke ("EnableTracingHand", 1);
 			ResetPath ();
@@ -315,7 +315,7 @@ public class GameManager : MonoBehaviour
 	private void CreateShape ()
 	{
 		
-		completeEffect.emit = false;
+		//completeEffect.emit = false;
 		GameObject.Find ("ResetConfirmDialog").GetComponent<Dialog> ().Hide ();
 		Area.Hide ();
 		winDialog.Hide ();
@@ -593,7 +593,7 @@ public class GameManager : MonoBehaviour
 			SaveShapeStatus (shapes);
 
 			DisableHand ();
-			brightEffect.GetComponent<ParticleEmitter> ().emit = false;
+			//brightEffect.GetComponent<ParticleEmitter> ().emit = false;
 			try{
 				GameObject.FindObjectOfType<GameManager> ().NextShape ();
 			}catch(System.Exception ex){
@@ -669,7 +669,7 @@ public class GameManager : MonoBehaviour
 			shapes.Add (shape);
 		}
 
-		completeEffect.emit = false;
+		//completeEffect.emit = false;
 		GameObject.Find ("NextButton").GetComponent<Animator> ().SetBool ("Select", false);
 		Area.Hide ();
 		winDialog.Hide ();

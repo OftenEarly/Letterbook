@@ -1622,7 +1622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shapes:
   - showContents: 1
-    gamePrefab: {fileID: 1073819518829360, guid: 3ca42bdd966384c2ca7216a793bf81f5,
+    gamePrefab: {fileID: 1043063289541814, guid: 58189a4fc51a741789bc04ca9e0e8bc7,
       type: 2}
     picture: {fileID: 0}
   shapeLabel: A
@@ -2059,7 +2059,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1416, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2128940992

@@ -1622,7 +1622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shapes:
   - showContents: 1
-    gamePrefab: {fileID: 1073819518829360, guid: 3ca42bdd966384c2ca7216a793bf81f5,
+    gamePrefab: {fileID: 1043063289541814, guid: 58189a4fc51a741789bc04ca9e0e8bc7,
       type: 2}
     picture: {fileID: 0}
   shapeLabel: A
